@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Secrets and local state
+.env
+.env.*
+*.key
+secrets.yaml
+
+# Local backups of dsh config — these routinely contain API keys
+cordis.patch.yml.bak*
+*.bak
+*.orig
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
